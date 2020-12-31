@@ -8,9 +8,11 @@ exports.run = (client, message, args) => {
       "Commandes NetBot : [cliquez ici](https://netbot.icero.xyz/commandes-utilisateurs/utiliser-les-commandes-simples-de-netbot)\n" +
         "Commandes NetPanel : ``p!help``"
     )
-    .setThumbnail(
-      "https://images.netheberg.fr/i/CWQ3SJzhtA6jLyUluDRpceBYXn7H25s4Ivf8mbP1Mdwrig9ZNoEFxTqkGVKO.png"
+    .addField(
+      "<:github:794219026074173440> NetBot est open-source !",
+      "• [Vers le repository](https://github.com/IceroDev/NetBot)\n• [Vers le signalement de problèmes](https://github.com/IceroDev/NetBot/issues)\n• [Vers les pull request](https://github.com/IceroDev/NetBot/pulls)"
     )
+    .setThumbnail(client.user.avatarURL({ dynamic: true, size: 512, format: "png" }))
     .setColor("2f3136");
   message.channel.send(embed);
   setTimeout(function () {
