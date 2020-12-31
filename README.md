@@ -5,9 +5,9 @@
 <h3 align="center">Le bot Discord du serveur communautaire de NetHeberg</h3>
 <h4 align="center">Crée avec ❤️ pour NetHeberg</h4>
 <p align="center">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/IceroDev/NetBot?style=for-the-badge"> <img alt="Discord" src="https://img.shields.io/discord/663370560696221698?label=Serveur%20Discord&style=for-the-badge"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/IceroDev/NetBot?style=for-the-badge"> <img alt="David" src="https://img.shields.io/david/IceroDev/NetBot?style=for-the-badge"> <img alt="npm" src="https://img.shields.io/npm/v/discord.js?label=discord.js&style=for-the-badge"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/IceroDev/NetBot?style=for-the-badge">
+  <a href="https://github.com/IceroDev/NetBot"><img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/IceroDev/NetBot?style=for-the-badge"></a> <a href="https://discord.gg/BCbkE3a"><img alt="Discord" src="https://img.shields.io/discord/663370560696221698?label=Serveur%20Discord&style=for-the-badge"></a> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/IceroDev/NetBot?style=for-the-badge"> <a href="https://github.com/IceroDev/NetBot/blob/main/package.json"><img alt="David" src="https://img.shields.io/david/IceroDev/NetBot?style=for-the-badge"></a> <a href="https://www.npmjs.com/package/discord.js"><img alt="npm" src="https://img.shields.io/npm/v/discord.js?label=discord.js&style=for-the-badge"></a> <a href="https://github.com/IceroDev/NetBot"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/IceroDev/NetBot?style=for-the-badge"></a>
 </p>
-<p align="center"><img alt="GitHub" src="https://img.shields.io/github/license/IceroDev/NetBot?style=for-the-badge"></p>
+<p align="center"><a href="https://github.com/IceroDev/NetBot/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/IceroDev/NetBot?style=for-the-badge"></a></p>
 <p align="center">
   <a href="https://discord.gg/BCbkE3a"><img src="https://discord.com/api/guilds/663370560696221698/embed.png?style=banner3" alt="Discord"></a>
  </p>
