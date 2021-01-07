@@ -9,7 +9,7 @@
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
     "@k3rn31p4nic/google-translate-api": "^1.1.0",
-    "axios": "^0.19.2",
+    "axios": ">=0.21.1",
     "bent": "^7.3.9",
     "better-sqlite3": "^7.1.1",
     "canvas": "^2.6.1",
