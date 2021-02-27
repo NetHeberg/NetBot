@@ -4,8 +4,24 @@ exports.run = async (client, message, args) => {
   const canvas = Canvas.createCanvas(1000, 1000);
   const ctx = canvas.getContext("2d");
 
+    let mention = message.mentions.users.first();
+    if (!args[0]) {
+      var user = message.author;
+    }
+    else if(mention){
+      var user = message.mentions.users.first();
+    }
+    else if(args[0]){
+      var user = client.users.cache.get(args[0]);
+       if (user === undefined){
+            
+        return message.channel.send(
+          ":x: ERREUR : L'identifiant n'existe pas dans la base de données"
+        );
+       }
+    }
   const img1 = await Canvas.loadImage(
-    message.author.avatarURL({ dynamic: true, size: 512, format: "png" })
+    user.avatarURL({ dynamic: true, size: 512, format: "png" })
   );
   const img2 = await Canvas.loadImage("https://i.ibb.co/9hnwR4z/cadre.png");
 
