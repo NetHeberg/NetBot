@@ -57,7 +57,11 @@ exports.run = (client, message, args) => {
                   version +
                   "\n" +
                   "• NodeJS : " +
-                  process.version
+                  process.version+
+                  "\n" +
+                  "• Ping : " +
+                  Math.round(client.ws.ping) +
+                  "ms"
               )
               .addField(
                 ":minidisc: **Ressources**",
