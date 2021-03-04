@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
     );
   if (!args[0]) {
     return message.channel.send(
-      "<a:arminerror:617366968554618943> ERREUR : Utilisation : a!google + ta recherche"
+      "<a:arminerror:617366968554618943> ERREUR : Utilisation : n!google + ta recherche"
     );
   } else {
     var embed = new Discord.MessageEmbed()
