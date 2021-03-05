@@ -29,3 +29,5 @@ N'hésitez pas à faire des pull request sur ce repository. Les modifications é
 • [Twitter de NetHeberg](https://twitter.com/NetHebergfr)
 
 • [Rejoindre le serveur Discord](https://discord.gg/BCbkE3a)
+
+<h1>Crée par <a href="https://github.com/IceroDev">IceroDev</a></h1>
