@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
 
   let game = args[0];
   let steampng =
-    "https://cdn.discordapp.com/attachments/458004691402489856/470344660364034049/steam.png";
+    "https://api-netbot.nhx.fr/assets/images/steam.png";
   if (!game)
     return message.reply(
       "<a:arminerror:617366968554618943> ERREUR : Veuillez spécifier un jeu"

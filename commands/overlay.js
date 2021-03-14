@@ -23,7 +23,7 @@ exports.run = async (client, message, args) => {
   const img1 = await Canvas.loadImage(
     user.avatarURL({ dynamic: true, size: 512, format: "png" })
   );
-  const img2 = await Canvas.loadImage("https://i.ibb.co/9hnwR4z/cadre.png");
+  const img2 = await Canvas.loadImage("https://api-netbot.nhx.fr/assets/images/cadre.png");
 
   ctx.drawImage(img1, 0, 0, canvas.width, canvas.height);
   ctx.drawImage(img2, 0, 0, canvas.width, canvas.height);

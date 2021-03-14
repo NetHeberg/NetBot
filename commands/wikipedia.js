@@ -50,7 +50,7 @@ exports.run = async (client, message, args) => {
                       ")"
                   )
                   .setThumbnail(
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Wikipedia_logo_%28svg%29.svg/1250px-Wikipedia_logo_%28svg%29.svg.png"
+                    "https://api-netbot.nhx.fr/assets/images/wikipedia.png"
                   );
                 if (result[0].includes(".png") || result[0].includes(".jpg")) {
                   var image = result[0];

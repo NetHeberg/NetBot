@@ -1,8 +1,8 @@
 exports.run = (client, message, args) => {
   var Discord = require("discord.js");
 
-  if (message.author.id !== "495874584650842123")
-    return message.channel.send(":x: ERREUR : Seul Jean peut faire cela !");
+  if (message.author.id !== "416371373464748051")
+    return message.channel.send(":x: ERREUR : Seul Firmin peut faire cela !");
   if (!args[0]) return message.channel.send(":x: ERREUR : Entrez du code svp");
   if (args.includes("token") || args.includes("client.token"))
     return message.reply(

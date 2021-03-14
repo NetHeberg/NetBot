@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
   var embed = new Discord.MessageEmbed()
     .setTitle("Informations pour " + args[0])
     .setThumbnail(
-      "https://images.netheberg.fr/i/CWQ3SJzhtA6jLyUluDRpceBYXn7H25s4Ivf8mbP1Mdwrig9ZNoEFxTqkGVKO.png"
+      "https://api-netbot.nhx.fr/assets/images/logo.png"
     )
     .setFooter("netheberg.fr");
   if (obj.query == "144.91.111.136") {

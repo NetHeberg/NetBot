@@ -14,7 +14,7 @@ exports.run = (client, message, args) => {
     .setColor("2f3136")
     .setFooter("netheberg.fr");
   message.channel.send(embed).then((m) => {
-    axios.get("https://api03.netheberg.fr/" + args[0]).then((response) => {
+    axios.get("https://api-netbot.nhx.fr/ping?ip=" + args[0]).then((response) => {
       var data = response.data;
       if (!data.pingInfo.error) {
         embed.setDescription("```" + data.pingInfo.output + "```");

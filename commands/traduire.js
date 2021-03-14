@@ -36,7 +36,7 @@ exports.run = async (client, message, args, command) => {
         )
         .addField("Traduction : " + args[0] + "-" + from, res.text)
         .setThumbnail(
-          "https://icerotsotv.github.io/arix/ressources/translate.gif"
+          "https://api-netbot.nhx.fr/assets/images/translate.gif"
         )
         .setColor("RANDOM")
         .setFooter("netheberg.fr");
