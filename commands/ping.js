@@ -2,10 +2,6 @@ exports.run = (client, message, args) => {
   var Discord = require("discord.js");
   const axios = require("axios");
   if (!args[0]) return message.reply("vous ne m'avez pas donné d'ip/domaine à ping.");
-  if (args[0].includes(":"))
-    return message.reply(
-      "je ne supporte malheureusement pas encore le ping d'un port."
-    );
   const embed = new Discord.MessageEmbed()
     .setTitle("Console de ping")
     .setDescription(
