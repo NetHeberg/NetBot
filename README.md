@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="https://net-bot.tk/assets/images/image015d35.png?v98892078540061">
+  <img width="200" src="https://api-netbot.nhx.fr/assets/images/logo.png">
 </p>
 <h1 align="center">NetBot</h1>
 <h3 align="center">Le bot Discord du serveur communautaire de NetHeberg</h3>
