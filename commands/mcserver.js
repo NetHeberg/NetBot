@@ -62,7 +62,7 @@ exports.run = async (client, message, args) => {
               "Pourquoi ça n'a pas marché ?",
               "Liste des raisons les plus fréquentes\n\n- L'ip envoyée est incorrecte\n- Le serveur n'existe pas"
             )
-            .setThumbnail("https://www.icone-png.com/png/54/53892.png")
+            .setThumbnail("https://api-netbot.nhx.fr/assets/images/question.png")
             .setColor("ORANGE");
           return message.channel.send(embederror);
         }
@@ -74,7 +74,7 @@ exports.run = async (client, message, args) => {
             "- Le serveur est simplement éteint,\n- Le serveur a existé un jour mais n'existe plus maintenant"
           )
           .setThumbnail(
-            "https://cdn.icon-icons.com/icons2/1378/PNG/512/offline_92825.png"
+            "https://api-netbot.nhx.fr/assets/images/hors-ligne.png"
           )
           .setColor("RED");
 

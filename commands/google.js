@@ -18,7 +18,7 @@ exports.run = (client, message, args) => {
       .setTitle("Recherche Google")
       .setDescription("Ton lien : " + "[clique-ici](" + link + ")")
       .setThumbnail(
-        "https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png"
+        "https://api-netbot.nhx.fr/assets/images/google.png"
       )
       .setColor("RANDOM")
       .setFooter("netheberg.fr");

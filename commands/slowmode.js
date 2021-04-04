@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
   const axios = require('axios');
 
   axios
-    .get('https://api.net-bot.tk/staff/permissions.json')
+    .get('https://api-netbot.nhx.fr/staff/permissions.json')
     .then((response) => {
       if (!response.data[message.author.id])
         return message.reply(

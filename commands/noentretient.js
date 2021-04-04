@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
     )
     .setColor("2f3136")
     .setThumbnail(
-      "https://nb-l.tk/assets/images/image01fa20.jpg?v68289444950061"
+      "https://api-netbot.nhx.fr/assets/images/logo.png"
     );
   client.users.cache.get(args[0]).send(embed1);
   message.channel.send("Message d'entretient envoyé avec succès");

@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
   var idinfo = new Discord.MessageEmbed()
     .setDescription("C'est clair " + message.member.displayName)
     .setImage(
-      "https://net-bot.tk/DossierTopSecretANouvrirSousAucunPretexte/SerieuxArretesToiLa/VadeRetroSatana/FirminTesPasRigolo/AllezStopMtn/BonSiTuInsistes/tenor.gif"
+      "https://api-netbot.nhx.fr/DossierTopSecretANouvrirSousAucunPretexte/SerieuxArretesToiLa/VadeRetroSatana/LesBelgesLesBests/AllezStopMtn/BonSiTuInsistes/tenor.gif"
     )
     .setColor("2f3136")
     .setFooter("Cette commande est un easter-egg, essaye de la trouver");

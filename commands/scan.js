@@ -23,7 +23,7 @@ exports.run = (client, message, args) => {
             );
             embed
               .setColor("GREEN")
-              .setThumbnail("https://i.stack.imgur.com/QRl3L.png");
+              .setThumbnail("https://api-netbot.nhx.fr/assets/images/status/green.png");
             return message.channel.send(embed);
           } else if (result.positives > 2) {
             embed.addField(
@@ -36,7 +36,7 @@ exports.run = (client, message, args) => {
             embed
               .setColor("RED")
               .setThumbnail(
-                "https://static.thenounproject.com/png/870666-200.png"
+                "https://api-netbot.nhx.fr/assets/images/status/red.png"
               );
             return message.channel.send(embed);
           } else if (result.positives < 2) {
@@ -49,7 +49,7 @@ exports.run = (client, message, args) => {
             );
             embed.setColor("ORANGE");
             embed.setThumbnail(
-              "https://static.thenounproject.com/png/870666-200.png"
+              "https://api-netbot.nhx.fr/assets/images/status/orange.png" 
             );
             embed.setFooter(
               "Le nombre de détections est relativement bas pour ce site. Ce scan peut-être un faux positif."
@@ -63,7 +63,7 @@ exports.run = (client, message, args) => {
             embed
               .setColor("PURPLE")
               .setThumbnail(
-                "https://icons-for-free.com/iconfiles/png/512/dead-1321215618131453604.png"
+                "https://api-netbot.nhx.fr/assets/images/status/purple.png"
               );
             return message.channel.send(embed);
           }
@@ -79,7 +79,7 @@ exports.run = (client, message, args) => {
           embed
             .setColor("PURPLE")
             .setThumbnail(
-              "https://icons-for-free.com/iconfiles/png/512/dead-1321215618131453604.png"
+              "https://api-netbot.nhx.fr/assets/images/status/purple.png"
             );
           return message.channel.send(embed);
           console.log(error);
@@ -96,7 +96,7 @@ exports.run = (client, message, args) => {
       embed
         .setColor("PURPLE")
         .setThumbnail(
-          "https://icons-for-free.com/iconfiles/png/512/dead-1321215618131453604.png"
+          "https://api-netbot.nhx.fr/assets/images/status/purple.png"
         );
       return message.channel.send(embed);
       console.log(Error);
